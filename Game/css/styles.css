@@ -1,0 +1,22 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: absolute;
+	top: 0;
+	left: 0; 
+	height: 100%;
+	width: 100%;
+	background-color: lightgray;
+	overflow: auto;
+}
+
+#gameCanvas{
+	width: 512px;
+	height: 480px;
+	background-color: white;
+	border: 2px solid black;
+	margin: 40px auto 0px;
+}
